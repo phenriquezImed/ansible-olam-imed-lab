@@ -1,0 +1,11 @@
+- name: Uptime global IMED
+  hosts: all
+  gather_facts: no
+  tasks:
+    - name: Obtener uptime
+      ansible.builtin.command: uptime
+      register: uptime_out
+
+    - name: Mostrar uptime
+      ansible.builtin.debug:
+        var: uptime_out.stdout
