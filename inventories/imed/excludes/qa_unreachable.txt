@@ -1,0 +1,7 @@
+im-bono3qa-sproxy01-ng1
+im-rmeqa-percona01-ng1
+im-rmeqa-web01-ng1
+im-lmeqa-percona02-ng1
+im-rmeqa-percona01-iia1
+im-rmeqa-web01-iia1
+im-qa-dec5-web01-ng1
